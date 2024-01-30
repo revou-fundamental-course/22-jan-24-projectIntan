@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Project</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+       
+    </head>
+    <body>
+        <!--Top of Pages Content-->
+        <header id="home">
+            <!--Logo-->
+            <div class="logo">
+                <img src="asset/FreshCart.png">
+            </div>
+            <!--Top Navigation-->
+            <div class="topnav">
+                <a href="#home">Home</a>
+               <a class="border" href="#contain">Our Packages</a>
+               <a href="#footer">Call Us</a>
+            </div>
+        </header>
+        <!--Title Website-->
+        <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+        <h2>Every Day with best ingredients</h2>
+        <!--Middle of Pages Content-->
+        <div class="flex-container" id="contain">
+            <!--Left Contain-->
+            <div class="left">
+                <!--Section-->
+                <div class="containsection" >
+                    <!--Section Slide Animation-->
+                    <div class="section-slides">
+                        <div class="slides fade">
+                            <img src="asset/slidepanjang3.png" style="width:100%">
+                        </div>
+                          
+                        <div class="slides fade">
+                            <img src="asset/slidepanjang2.png" style="width:100%">
+                        </div>
+                          
+                        <div class="slides fade">
+                            <img src="asset/slidepanjang1.png" style="width:100%">
+                        </div>
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                        </div>
+                          
+                    </div>
+                    <!--Section Article-->
+                    <div class="containarticle" >
+                        <div class="product">
+                            <div class="producticon"><img src="asset/iconorder.png"></div>
+                            <div class="productinfo">
+                                <span>Proses Pemesanan Anti Ribet</span>
+                                <p>Hanya klik melalui aplikasi freshcart atau bisa hubungi kami lewat whatsapp, sesuai kebutuhan anda.</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="producticon"><img src="asset/iconproduct.png"></div>
+                            <div class="productinfo">
+                                <span>1000+ Ragam Pilihan Produk</span>
+                                <p>Tersedia beragam produk lengkap mulai dari sayur, buah, unggas, daging, rempah, sembako dan bahan masakan lainnya.</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="producticon"><img src="asset/iconproducts.png"></div>
+                            <div class="productinfo">
+                                <span>Produk Segar Berkualitas</span>
+                                <p>Kualiats produk dijamin <b>segar dan berkualitas</b> dari hasil panen terbaik pertani indonesia.</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="producticon"><img src="asset/icontime.png"></div>
+                            <div class="productinfo">
+                                <span>Pengiriman Fleksibel dan Bebas Biaya</span>
+                                <p>Pilih sendiri waktu pengiriman pesanan dan <b>GRATIS ONGKIR!</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Section Testimoni-->
+                    <div class="testimoni">
+                        <p>Kata Mereka Tentang FreshCart</p>
+                        <table>
+                            <tr>
+                                <td><img src="asset/profileiconw.png"></td>
+                                <td>setiap beli sayur dan buah selalu fresh - Dina (Ibu Rumah Tangga)</td>
+                            </tr>
+                            <tr>
+                                <td><img src="asset/profileiconw.png"></td>
+                                <td>pengiriman cepat, kualitas sayur dan buah ok - Ratih (Pekerja Swasta)</td>
+                            </tr>
+                            <tr>
+                                <td><img src="asset/profileiconm.png"></td>
+                                <td>selalu langganan di fresh cart, kualitas dan pengiriman bagus - Bayu (Mahasiswa)</td>
+                            </tr>
+                        </table>
+                    </div>
+            
+                </div>
+               
+            </div>
+            <!--Right Contain-->
+            <div class="right">
+                <!--Aside-->
+                <div class="containaside">
+                    <!--Contact Us-->
+                    <div class="contactus">
+                        <p>Contact Us</p>
+                        <span>Sales akan menghubungi anda 1x24 jam setelah data kami terima</span>
+                        <form class="form"  name="contactus" id="contactus" onsubmit="return validationForm()" method="post">
+                            <label>Your Name :</label>
+                            <input type="text" id="name" name="name" placeholder="First and last name" >
+                            <div class="error" id="nameErr"></div>
+                            <label>Email Address :</label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com">
+                            <div class="error" id="emailErr"></div>
+                            <label>What are you interested in?</label>
+                            <select name="option" class="customselect">
+                                <option selected>Select Option</option>
+                                <option >1</option>
+                                <option >2</option>
+                            </select>
+                            <input type="submit"  id="submit" value="SEND">
+                            
+                        </form>
+                       
+                    </div>
+                    <!--Banner Iklan-->
+                    <div class="banneriklan">
+                        <img src="asset/banneriklan.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Bottom of Pages Content-->
+        <footer id="footer">
+            <div class="logo">
+                <img src="asset/FreshCart.png">
+            </div>
+            <div class="tagline">
+                <p>E-Groceris Terlengkap dan Terpercaya #1 di Indonesia</p>
+            </div>
+            <div class="medsos">
+                <table>
+                    <tr>
+                        <td><a href="https://www.facebook.com/" target="_blank"><img src="asset/iconfb.png"</a></td>
+                        <td><a href="https://www.instagram.com/" target="_blank"><img src="asset/iconig.png"</a></td>
+                        <td><a href="https://wa.me/6287882128921" target="_blank"><img src="asset/iconwa.png"</a></td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+       
+        <script src="js/script.js"></script>
+    </body>
+</html>
